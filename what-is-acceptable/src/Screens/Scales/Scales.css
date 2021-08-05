@@ -1,0 +1,50 @@
+.Add{
+   position: fixed;
+   height: 60px;
+   width: 60px;
+   left: 3%;
+   text-align: center;
+   color: rgb(255, 255, 255);
+   bottom: 3%;
+   padding: 10px;
+   font-size: 33px;
+   background: linear-gradient(180deg, rgba(110,108,250,1) 0%, rgba(0,198,255,1) 100%);
+   border-radius: 35px;
+   
+}
+.Add:hover{
+    
+    border-style: solid;
+    
+    background: linear-gradient(365deg, rgb(90, 89, 182) 0%, rgb(0, 132, 255) 100%);
+}
+.Main{
+    margin-top: 10vh;
+    text-align: center;
+}
+.Main > input[type = text]{
+   margin: 40px;
+   padding: 10px;
+   font-size: 15px;
+   font-weight: bold;
+   border-radius: 15px;
+   padding-left: 15px;
+   width: 40vw;
+   min-width: 200px;
+   margin-bottom:40px ;
+}
+.Main > input:focus{
+    outline: none;
+}
+
+
+
+.ScalesScreen{
+    
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    object-position: center;
+    justify-content: space-around;
+}

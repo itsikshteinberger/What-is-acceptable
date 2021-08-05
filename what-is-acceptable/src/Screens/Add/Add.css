@@ -1,0 +1,50 @@
+.AddScreen{
+    text-align: center;
+    margin-top:30vh;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.AddScreen > textarea:focus{
+    font-weight: bold;
+    font-size: 15px;
+    min-width: 40vw;
+    max-width: 60vw;
+    min-height: 20px;
+    max-height: 7vh;
+    padding: 10px;
+}
+.AddScreen >h1{
+    color: white;
+    text-shadow: 3px 3px 0px #504c48;
+}
+.AddScreen > textarea{
+    border-style: solid;
+    
+    
+    font-size: 15px;
+    min-width: 40vw;
+    max-width: 60vw;
+    min-height: 20px;
+    max-height: 7vh;
+    padding: 10px;
+}
+
+.AddScreen > button{
+   
+
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background: linear-gradient(180deg, rgba(110,108,250,1) 0%, rgba(0,198,255,1) 100%);
+}
+.AddScreen > button:hover{
+    
+    
+    background: linear-gradient(365deg, rgba(110,108,250,1) 0%, rgba(0,198,255,1) 100%);
+
+}
