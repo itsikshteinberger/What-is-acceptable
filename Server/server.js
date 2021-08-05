@@ -13,7 +13,7 @@ app.use(bodyParser.json())
 
 var config = {
   user: 'sa',
-  password: 'ahuva221',
+  password: '*****', // add your on password
   server: 'localhost', 
   database: 'Acceptable',
   trustServerCertificate: true
