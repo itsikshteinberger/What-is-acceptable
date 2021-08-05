@@ -6,7 +6,7 @@ Is it acceptable to bring the dog to work? And what about going to the movies al
 <br/>
 Share your dilemmas about public norms and find out if they are indeed acceptable or not.
 
-# User manual [Heading link](https://github.com/pandao/editor.md "User manual")
+[User manual](https://github.com/itsikshteinberger/What-is-acceptable/blob/master/README.md "User manual")
 ## Heading 2 link [Heading link](https://github.com/pandao/editor.md "Heading link")
 
 ## User manual
