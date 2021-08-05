@@ -10,4 +10,43 @@ Share your dilemmas about public norms and find out if they are indeed acceptabl
 Using the site is very simple, once you register (or log in) you can add a dilemma and watch and rate the dilemmas of others (a user who does not register will only be able to passively watch).
 <br/>
 You can also search for specific dilemmas or specific users.
+<br/>
+
+![](https://github.com/itsikshteinberger/What-is-acceptable/blob/master/Media/screenshot.png)
+>Screenshot from the home page.
 <img src="https://github.com/itsikshteinberger/What-is-acceptable/blob/master/Media/github.gif" alt="🤯">
+
+## Installation
+
+For downloading the code:
+```sh
+git clone https://github.com/itsikshteinberger/What-is-acceptable
+```
+### Server side
+
+First of all, do not forget to enter the password in [server.js](https://github.com/itsikshteinberger/What-is-acceptable/blob/master/Server/server.js) of your sql server user:
+
+```js
+var config = {
+  user: 'sa',
+  password: 'You should enter your password here', 
+  server: 'localhost', 
+  database: 'Acceptable',
+  trustServerCertificate: true
+};
+```
+We will now proceed with command
+```sh
+cd Server
+npm install express nodemon cors body-parser mssql --save
+nodemon server.js
+```
+¡Bellísimo! We now have a server.
+### Client side
+Open another command window in the What-is-acceptable folder and write the following commands:
+```sh
+cd what-is-acceptable
+npm install react-scripts
+npm start
+```
+After the last command the site will open in the browser.
